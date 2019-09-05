@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/myLayout">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Комбинации Цветов"
+        android:gravity="center_horizontal"
+        android:textSize="23dp"
+        android:id="@+id/textView"
+        />
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Красный"
+        android:textSize="23dp"
+        android:id="@+id/chkRed"
+        android:onClick="checkBoxOnClick" />
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Зеленый"
+        android:textSize="23dp"
+        android:id="@+id/chkGreen"
+        android:onClick="checkBoxOnClick" />
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Синий"
+        android:textSize="23dp"
+        android:id="@+id/chkBlue"
+        android:onClick="checkBoxOnClick" />
+
+</LinearLayout>

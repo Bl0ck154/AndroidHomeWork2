@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Home Work 2</string>
+    <string name="task1_name">Task 1</string>
+    <string name="task2_name">Task 2</string>
+    <string name="task3_name">Task 3</string>
+    <string name="task4_name">Task 4</string>
+    <string name="task5_name">Task 5</string>
+    <string name="task6_name">Task 6</string>
+</resources>
